@@ -1,0 +1,25 @@
+EVEN-ODD-CHECKER
+a=int(input("Enter your No."))
+if a%2==0:
+  print(a,"is an even no.")
+else:
+  print(a,"is an odd no.")
+
+OUTPUT
+
+Enter your No.15
+15 is an odd no.
+
+Enter your No.10
+10 is an even no.
+
+SUM_CALCULATOR
+sum=0
+for i in range (1,51):
+  sum+=i
+  
+print("sum of numbers from 1 to 50 is ",sum)
+
+OUTPUT
+
+sum of numbers from 1 to 50 is  1275
